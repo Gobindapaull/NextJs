@@ -30,6 +30,18 @@ export default function Home() {
     <>
       <main className={`${styles.main} ${inter.className}`}>
        <button onClick={() => GrabNews()}>Grab Info</button>
+       {
+        data && data.articles.map((d, i) => {
+          return (
+             <div key={i}>
+              <h2>{d.author}</h2>
+              <h3>{d.title}</h3>
+              <br />
+              <br />
+             </div>
+          )
+        })
+       }
       </main>
     </>
   )

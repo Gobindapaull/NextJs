@@ -1,0 +1,2 @@
+- npm install sonner
+- import { Toaster } from "sonner";

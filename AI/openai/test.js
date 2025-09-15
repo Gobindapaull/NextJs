@@ -9,7 +9,7 @@ const myOpenAI = createOpenAI({
 
 async function main() {
   const { text } = await generateText({
-    model: myOpenAI("gpt-4.1-mini", ),
+    model: myOpenAI("gpt-4.1-mini"),
     prompt: "Top 5 youtube in the world"
   });
 

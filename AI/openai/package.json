@@ -1,0 +1,19 @@
+{
+  "name": "nexjsai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.30",
+    "ai": "^5.0.44",
+    "dotenv": "^17.2.2",
+    "zod": "^4.1.8"
+  }
+}

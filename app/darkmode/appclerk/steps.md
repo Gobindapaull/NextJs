@@ -19,3 +19,5 @@
 - app > page.tsx
 
 - mv .env test/.env
+
+- mv .env ../.env

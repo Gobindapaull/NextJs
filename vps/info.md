@@ -1,0 +1,2 @@
+- npm run build
+- pm2 start "npx next start -H 0.0.0.0 -p 3000" --name nextapp
